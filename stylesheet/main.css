@@ -243,14 +243,22 @@
     display: block;
   }
 
-  .featured a {
-    display: block;
-    text-decoration: none;
+  .featured a:first-of-type {
     opacity: 1;
   }
 
-  .featured a:hover {
+  .featured a:first-of-type:hover {
     opacity: .5;
+  }
+
+  .featured a {
+    display: block;
+    text-decoration: none;
+    opacity: .5;
+  }
+
+  .featured a:hover {
+    opacity: 1;
   }
 
   .profile p {
