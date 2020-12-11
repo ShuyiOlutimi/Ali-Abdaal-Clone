@@ -239,6 +239,20 @@
     background: var(--clr-neutral-200);
   }
 
+  .featured span {
+    display: block;
+  }
+
+  .featured a {
+    display: block;
+    text-decoration: none;
+    opacity: 1;
+  }
+
+  .featured a:hover {
+    opacity: .5;
+  }
+
   .profile p {
     color: var(--clr-neutral-900);
   }
